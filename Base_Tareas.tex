@@ -1,0 +1,92 @@
+\documentclass[12pt]{article}
+
+% 1 inch margin per side
+\usepackage{fullpage}
+% Includes graphics
+\usepackage{graphicx}
+% Packages for Mathematics, by the American Mathematical Society
+\usepackage{amssymb}
+\usepackage{amsmath}
+% Deactivate hyphenation
+\usepackage[none]{hyphenat}
+% Jump between paragraphs - no indents
+\usepackage{parskip}
+% UTF-8 and spanish for this template
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+% Links of document
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\setlength{\headsep}{5pt}
+\pagestyle{fancy}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Exp}[1]{\mathcal{E}_{#1}}
+\newcommand{\List}[1]{\mathcal{L}_{#1}}
+\newcommand{\EN}{\Exp{\N}}
+\newcommand{\LN}{\List{\N}}
+
+\newcommand{\comment}[1]{}
+\newcommand{\lb}{\\~\\}
+\newcommand{\eop}{_{\square}}
+\newcommand{\hsig}{\hat{\sigma}}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\lra}{\leftrightarrow}
+
+% Here you can change my name for yours
+\newcommand{\alumno}{Martín Cadagan Guzmán}
+% Here you can change "Tarea 1" for your assignment
+\rhead{Tarea 1 - \alumno}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{minipage}{2.3cm}
+	
+
+% Insert here the top left corner img like the logo of your university
+% Remember to have a folder with all your images
+\includegraphics[width=2cm]{img/logo.pdf}
+\vspace{0.5cm} 
+\begin{minipage}{\linewidth}
+\textsc{\raggedright \footnotesize
+Pontificia Universidad Católica de Chile \\
+% Insert here your faculty/ Dept of studies
+Departamento de Ciencias de la Computación \\
+% Insert here you course
+IIC2143 - Diseño detallado de software \\}
+\end{minipage}
+
+
+% Title
+\begin{center}
+\vspace{0.5cm}
+{\huge\bf Tarea 1}\\
+\vspace{0.2cm}
+\today\\
+\vspace{0.2cm}
+
+
+\footnotesize{2º semestre 2020 }\\
+\vspace{0.2cm}
+\footnotesize{\alumno}
+\rule{\textwidth}{0.05mm}
+\end{center}
+
+% Start your awnsers from here :)
+\section*{Respuestas}
+
+\subsection*{Pregunta 1}
+\textbf{a)}
+
+% Template for centered figures
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.5]{img/logo.pdf}
+	\caption{You can change this text for a figure description}
+\end{figure}
+
+% Sample text
+Suponga que D es cerrado y acotado. Si $f$ presenta discontinuidades en el conjunto D, entonces el problema podría igualmente tener soluciones. ¿Cierto o no? ¿Es Chefctio un impostor o no?
+
+\end{document}

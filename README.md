@@ -1,4 +1,4 @@
-#  :computer: Latex_base :computer:
+#  :computer: Latex base for overleaf :computer:
 
 You can use this template for assignments and all university/schoool work :bowtie:
 
